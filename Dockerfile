@@ -35,5 +35,5 @@ EXPOSE 3000
 # docker run するときにデフォルトで実行されるもの。
 # * ここでは Node.js で server.js を起動している
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
 
